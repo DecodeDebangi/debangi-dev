@@ -5,8 +5,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { blogPosts } from "@/data/blog-posts";
-import { Calendar, Clock, ArrowLeft, Tag } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Calendar, Clock, ArrowLeft } from "lucide-react";
 import { CodeBlock } from "@/components/blog/CodeBlock";
 
 interface BlogPostProps {

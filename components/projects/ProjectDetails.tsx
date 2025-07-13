@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import SectionTitle from "@/components/SectionTitle";
+
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, Github, BookOpen, Code } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
@@ -192,9 +192,9 @@ const ProjectDetails: React.FC<ProjectDetailsProps> = ({ id }) => {
                   </div>
                   <div className='p-4 text-sm font-mono text-gray-300'>
                     <p className='text-emerald-400'># {project.title}</p>
-                    <p className='text-gray-500 mt-2'>// Main technologies</p>
+                    <p className='text-gray-500 mt-2'>{/* Main technologies */}</p>
                     <p className='text-white'>{project.tags.join(", ")}</p>
-                    <p className='text-gray-500 mt-2'>// Project goal</p>
+                    <p className='text-gray-500 mt-2'>{/* Project goal */}</p>
                     <p className='text-white'>
                       {project.description.split(".")[0]}.
                     </p>

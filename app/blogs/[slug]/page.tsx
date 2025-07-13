@@ -1,14 +1,13 @@
-"use client";
-
 import React from "react";
 import BlogPost from "@/components/blog/BlogPost";
 
 interface BlogPostPageProps {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 }
 
-export default function BlogPostPage({ params }: BlogPostPageProps) {
-  return <BlogPost slug={params.slug} />;
+export default async function BlogPostPage({ params }: BlogPostPageProps) {
+  const { slug } = await params;
+  return <BlogPost slug={slug} />;
 }

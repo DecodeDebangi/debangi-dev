@@ -1,6 +1,5 @@
 
 import React, { useRef } from 'react';
-import { Braces } from 'lucide-react';
 import AboutMeContent from './AboutMeContent';
 import Tools from './Tools';
 import Passions from './Passions';

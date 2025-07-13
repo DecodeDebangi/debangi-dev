@@ -21,15 +21,15 @@ const AboutMeContent: React.FC = () => {
         </div>
         
         <p className="text-emerald-400 font-mono text-sm">
-          {"> "}With over 5 years of experience in web and mobile development, I've had the opportunity to work on a wide range of projects, from small business websites to complex enterprise applications.
+          {"> "}With over 5 years of experience in web and mobile development, I&apos;ve had the opportunity to work on a wide range of projects, from small business websites to complex enterprise applications.
         </p>
         
         <p className="text-teal-400 font-mono text-sm">
-          {"> "}My approach to development is holistic - I believe that great software isn't just about clean code, but also about creating intuitive user experiences and solving real business problems.
+          {"> "}My approach to development is holistic - I believe that great software isn&apos;t just about clean code, but also about creating intuitive user experiences and solving real business problems.
         </p>
         
         <p className="text-cyan-400 font-mono text-sm">
-          {"> "}When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and mentoring junior developers.
+          {"> "}When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and mentoring junior developers.
         </p>
         
         <div className="h-4 w-3 bg-white opacity-70 animate-pulse mt-1"></div>

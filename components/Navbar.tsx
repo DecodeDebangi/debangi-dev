@@ -1,19 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { Menu, X, Code, ChevronDown } from 'lucide-react';
+import { Menu, Code } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import {
   Drawer,
-  DrawerClose,
   DrawerContent,
   DrawerTrigger,
 } from "@/components/ui/drawer";
@@ -88,7 +79,7 @@ const Navbar: React.FC = () => {
               href="#contact"
               className="px-4 py-2 rounded-lg border border-emerald-500/50 text-emerald-400 hover:bg-emerald-400/10 transition-all duration-300 text-sm font-medium button-hover"
             >
-              Let's Talk
+              Let&apos;s Talk
             </a>
           </div>
         )}
@@ -135,7 +126,7 @@ const Navbar: React.FC = () => {
                     asChild
                   >
                     <a href="#contact">
-                      Let's Talk
+                      Let&apos;s Talk
                     </a>
                   </Button>
                 </nav>

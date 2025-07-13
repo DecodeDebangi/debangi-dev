@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
   const [selectedTag, setSelectedTag] = useState<string>("All");
 
   // Generate 10 dummy projects
-  const allProjects: ProjectCardProps[] = [
+  const allProjects: ProjectCardProps[] = useMemo(() => [
     {
       id: "1",
       title: "E-Commerce Platform",
@@ -131,7 +131,7 @@ const Projects: React.FC = () => {
       demoLink: "#",
       githubLink: "#",
     },
-  ];
+  ], []);
 
   // Filter projects by selected tag
   const filteredProjects = useMemo(() => {

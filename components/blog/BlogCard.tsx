@@ -1,5 +1,5 @@
 import React from "react";
-import { Calendar, Clock, Tag } from "lucide-react";
+import { Calendar, Clock } from "lucide-react";
 import Link from "next/link";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { BlogPost } from "@/types/blog";

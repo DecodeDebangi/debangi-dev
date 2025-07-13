@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Github,
-  Linkedin,
-  Twitter,
-  Mail,
-  ArrowUpRight,
-  Heart,
-} from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Heart } from "lucide-react";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -18,10 +11,10 @@ const Footer: React.FC = () => {
       <div className='container-custom'>
         <div className='flex flex-col md:flex-row justify-between gap-8 mb-12'>
           <div className='max-w-md'>
-            <h2 className='text-2xl font-bold mb-4'>Let's Connect</h2>
+            <h2 className='text-2xl font-bold mb-4'>Let&apos;s Connect</h2>
             <p className='text-muted-foreground mb-6'>
-              I'm always open to discussing new projects, creative ideas, or
-              opportunities to be part of your vision.
+              I&apos;m always open to discussing new projects, creative ideas,
+              or opportunities to be part of your vision.
             </p>
 
             <a

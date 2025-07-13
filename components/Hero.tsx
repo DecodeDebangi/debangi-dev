@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
             {/* Main heading */}
             <div className='space-y-3'>
               <h1 className='text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight'>
-                Hello, I'm{" "}
+                Hello, I&apos;m{" "}
                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500'>
                   Debangi
                 </span>
