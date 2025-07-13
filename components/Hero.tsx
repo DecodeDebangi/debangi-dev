@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
 
             {/* Technology badges - horizontal scrolling row */}
             <div className='flex space-x-3 pb-2 overflow-x-auto scrollbar-none'>
-              {["React", "TypeScript", "Node.js", "UI/UX", "Cloud"].map(
+              {["React", "TypeScript", "Node.js", "Nest", "Cloud"].map(
                 (skill, i) => (
                   <Badge
                     key={i}
@@ -239,7 +239,7 @@ const App = () => {
                   <div className='cube-face cube-face-top'>
                     <div className='bg-rose-500 bg-opacity-90 w-full h-full flex items-center justify-center rounded-md'>
                       <span className='text-white font-bold text-xl'>
-                        UI/UX
+                        NestJS
                       </span>
                     </div>
                   </div>
