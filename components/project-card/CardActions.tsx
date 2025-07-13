@@ -37,15 +37,12 @@ export const CardQuickActions: React.FC<CardActionsProps> = ({
         {/* Details link */}
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href={`/projects/${id}`}>
-              <CardAction
-                href={`/projects/${id}`}
-                icon={<FileText size={compact ? 14 : 18} />}
-                label='Details'
-                compact={compact}
-                isRouterLink={true}
-              />
-            </Link>
+            <CardAction
+              icon={<FileText size={compact ? 14 : 18} />}
+              label='Details'
+              compact={compact}>
+              <Link href={`/projects/${id}`} />
+            </CardAction>
           </TooltipTrigger>
           <TooltipContent side='bottom' className='py-0.5'>
             <p>Project Details</p>
@@ -98,15 +95,12 @@ export const CardFooterActions: React.FC<CardActionsProps> = ({
   if (compact) {
     return (
       <div className='flex gap-2'>
-        <Link href={`/projects/${id}`} className='flex-1'>
-          <CardAction
-            href={`/projects/${id}`}
-            icon={<FileText size={10} className='mr-1' />}
-            label='Details'
-            compact={true}
-            isRouterLink={true}
-          />
-        </Link>
+        <CardAction
+          icon={<FileText size={10} className='mr-1' />}
+          label='Details'
+          compact={true}>
+          <Link href={`/projects/${id}`} className='flex-1' />
+        </CardAction>
 
         {(demoLink || githubLink) && (
           <CardAction
