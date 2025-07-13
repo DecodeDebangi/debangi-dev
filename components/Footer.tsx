@@ -1,5 +1,6 @@
 import React from "react";
 import { Github, Linkedin, Twitter, Mail, Brain } from "lucide-react";
+import Link from "next/link";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -29,7 +30,7 @@ const Footer: React.FC = () => {
             <h3 className='text-lg font-medium mb-4'>Follow Me</h3>
             <div className='flex space-x-4'>
               <a
-                href='https://github.com'
+                href='https://github.com/DecodeDebangi'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='p-2 rounded-full bg-white/5 hover:bg-emerald-900/20 text-muted-foreground hover:text-emerald-400 transition-colors'
@@ -37,7 +38,7 @@ const Footer: React.FC = () => {
                 <Github size={20} />
               </a>
               <a
-                href='https://linkedin.com'
+                href='https://www.linkedin.com/in/debangic/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='p-2 rounded-full bg-white/5 hover:bg-emerald-900/20 text-muted-foreground hover:text-emerald-400 transition-colors'
@@ -45,7 +46,7 @@ const Footer: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
-                href='https://twitter.com'
+                href='https://x.com/decodeDebangi'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='p-2 rounded-full bg-white/5 hover:bg-emerald-900/20 text-muted-foreground hover:text-emerald-400 transition-colors'
@@ -63,11 +64,11 @@ const Footer: React.FC = () => {
                 className='hover:text-emerald-400 transition-colors'>
                 Home
               </a>
-              <a
-                href='#projects'
+              <Link
+                href='/projects'
                 className='hover:text-emerald-400 transition-colors'>
                 Projects
-              </a>
+              </Link>
               <a
                 href='#about'
                 className='hover:text-emerald-400 transition-colors'>
