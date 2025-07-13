@@ -6,8 +6,8 @@ import Providers from "@/components/Providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Debangi Choudhury - Portfolio",
-  description: "Full-stack developer and cybersecurity enthusiast",
+  title: "Decode Debangi",
+  description: "Full-stack developer and AI enthusiast",
 };
 
 export default function RootLayout({
