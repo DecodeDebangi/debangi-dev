@@ -3,7 +3,7 @@
 import React, { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import FeaturedProjects from "@/components/FeaturedProjects";
+// import FeaturedProjects from "@/components/FeaturedProjects";
 import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
 
@@ -25,7 +25,7 @@ export default function Home() {
       {/* Main content */}
       <Navbar />
       <Hero />
-      <FeaturedProjects />
+      {/* <FeaturedProjects /> */}
       <AboutMe />
       <Footer />
     </div>
