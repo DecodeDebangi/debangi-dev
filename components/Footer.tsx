@@ -1,6 +1,13 @@
 import React from "react";
-import { Github, Linkedin, Twitter, Mail, Brain } from "lucide-react";
-import Link from "next/link";
+import {
+  Github,
+  Linkedin,
+  Twitter,
+  Mail,
+  Brain,
+  Instagram,
+} from "lucide-react";
+// import Link from "next/link";
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -46,6 +53,14 @@ const Footer: React.FC = () => {
                 <Linkedin size={20} />
               </a>
               <a
+                href='https://www.instagram.com/decodedebangi/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='p-2 rounded-full bg-white/5 hover:bg-emerald-900/20 text-muted-foreground hover:text-emerald-400 transition-colors'
+                aria-label='Twitter'>
+                <Instagram size={20} />
+              </a>
+              <a
                 href='https://x.com/decodeDebangi'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -64,11 +79,11 @@ const Footer: React.FC = () => {
                 className='hover:text-emerald-400 transition-colors'>
                 Home
               </a>
-              <Link
+              {/* <Link
                 href='/projects'
                 className='hover:text-emerald-400 transition-colors'>
                 Projects
-              </Link>
+              </Link> */}
               <a
                 href='#about'
                 className='hover:text-emerald-400 transition-colors'>

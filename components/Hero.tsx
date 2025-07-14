@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { ArrowRight, ExternalLink, Github, Terminal } from "lucide-react";
+import { ExternalLink, Github, Terminal } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useIsMobile } from "@/hooks/use-mobile";
-import Link from "next/link";
+// import Link from "next/link";
 
 const Hero: React.FC = () => {
   const [isTyping, setIsTyping] = useState(true);
@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
 
             {/* CTA buttons */}
             <div className='flex flex-wrap gap-4'>
-              <Button className='bg-gradient-to-r from-emerald-500 to-teal-500 text-white hover:opacity-90 transition-all shadow-lg shadow-emerald-500/20 rounded-md group'>
+              {/* <Button className='bg-gradient-to-r from-emerald-500 to-teal-500 text-white hover:opacity-90 transition-all shadow-lg shadow-emerald-500/20 rounded-md group'>
                 <Link href='/projects' className='flex items-center'>
                   View Projects
                   <ArrowRight
@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
                     className='ml-2 transition-transform group-hover:translate-x-1'
                   />
                 </Link>
-              </Button>
+              </Button> */}
 
               <Button
                 variant='outline'
